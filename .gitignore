@@ -1,0 +1,9 @@
+/.emacs.d/*
+!/.emacs.d/init.el
+!/.emacs.d/conf/
+!/.emacs.d/elpa/
+!/.emacs.d/el-get/
+!/.emacs.d/public_repo/
+!/.emacs.d/elisp/
+!.bashrc
+!/image/*

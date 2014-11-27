@@ -1,0 +1,6 @@
+(:name circe
+       :website "https://github.com/jorgenschaefer/circe/wiki"
+       :description "Circe is a Client for IRC in Emacs with sane defaults"
+       :type github
+       :pkgname "jorgenschaefer/circe"
+       :load-path ("lisp"))
