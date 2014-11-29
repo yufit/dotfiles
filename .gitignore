@@ -2,8 +2,10 @@
 !/.emacs.d/init.el
 !/.emacs.d/conf/
 !/.emacs.d/elpa/
-!/.emacs.d/el-get/
-!/.emacs.d/public_repo/
 !/.emacs.d/elisp/
+!/.emacs.d/el-get/
+!/.emacs.d/ddskk/
+!/.emacs.d/info/
+!/.emacs.d/share/
 !.bashrc
 !/image/*

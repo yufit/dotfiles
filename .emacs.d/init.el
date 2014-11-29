@@ -11,7 +11,7 @@
             (normal-top-level-add-subdirs-to-load-path))))))
 
 ;;; load-pathに追加
-(my:add-to-load-path "elisp" "conf" "public_repos" "elpa")
+(my:add-to-load-path "elisp" "conf" "elpa")
 
 ;; @init-loader
 ;;; 分割した設定ファイルを読み込む
@@ -392,6 +392,24 @@
 (prefer-coding-system 'utf-8)
 (setq coding-system-for-read 'utf-8)
 (setq coding-system-for-write 'utf-8)
-;;
 
 
+;; @ddskk
+
+(require 'skk-autoloads)
+(global-set-key (kbd "C-x C-j") 'skk-mode)
+(setq skk-preload t)
+(setq skk-user-directory "~/.emacs.d/ddskk")
+
+(setq skk-server-host "localhost")
+(setq skk-server-portnum 1178)
+
+(setq skk-egg-like-newline t)
+(setq skk-henkan-strict-okuri-precedence t)
+(setq skk-check-okurigana-on-touroku 'auto)
+(setq skk-show-annotation t)
+
+(require 'skk-hint)
+
+(setq skk-japanese-message-and-error t)
+(setq skk-show-japanese-menu t)
